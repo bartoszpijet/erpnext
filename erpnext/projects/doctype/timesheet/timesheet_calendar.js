@@ -6,7 +6,7 @@ frappe.views.calendar["Timesheet"] = {
 		id: "name",
 		allDay: "allDay",
 		child_name: "name",
-		title: "actiity_type",
+		title: "activity",
 	},
 	style_map: {
 		0: "info",
