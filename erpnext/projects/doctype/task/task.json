@@ -55,6 +55,26 @@
   "old_parent",
   "template_task"
  ],
+ "custom_fields": [
+    {
+     "bold": 1,
+     "fieldname": "custom_editable_act_start_date",
+     "fieldtype": "Datetime",
+     "label": "Actual Start Date",
+     "oldfieldname": "custom_editable_act_start_date",
+     "oldfieldtype": "Date",
+     "search_index": 1
+    },
+    {
+     "bold": 1,
+     "fieldname": "custom_editable_act_end_date",
+     "fieldtype": "Datetime",
+     "label": "Actual End Date",
+     "oldfieldname": "custom_editable_act_end_date",
+     "oldfieldtype": "Date",
+     "search_index": 1
+    }
+ ],
  "fields": [
   {
    "allow_in_quick_entry": 1,
@@ -186,22 +206,6 @@
    "oldfieldname": "exp_end_date",
    "oldfieldtype": "Date",
    "search_index": 1
-  },
-  {
-   "bold": 1,
-   "fieldname": "custom_editable_act_start_date",
-   "fieldtype": "Datetime",
-   "label": "Actual Start Date",
-   "oldfieldname": "custom_editable_act_start_date",
-   "oldfieldtype": "Date"
-  },
-  {
-   "bold": 1,
-   "fieldname": "custom_editable_act_end_date",
-   "fieldtype": "Datetime",
-   "label": "Actual End Date",
-   "oldfieldname": "custom_editable_act_end_date",
-   "oldfieldtype": "Date"
   },
   {
    "fieldname": "progress",
