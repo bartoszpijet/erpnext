@@ -155,7 +155,7 @@
   {
    "bold": 1,
    "fieldname": "exp_start_date",
-   "fieldtype": "Date",
+   "fieldtype": "Datetime",
    "label": "Expected Start Date",
    "oldfieldname": "exp_start_date",
    "oldfieldtype": "Date"
@@ -181,11 +181,27 @@
   {
    "bold": 1,
    "fieldname": "exp_end_date",
-   "fieldtype": "Date",
+   "fieldtype": "Datetime",
    "label": "Expected End Date",
    "oldfieldname": "exp_end_date",
    "oldfieldtype": "Date",
    "search_index": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "custom_editable_act_start_date",
+   "fieldtype": "Datetime",
+   "label": "Actual Start Date",
+   "oldfieldname": "custom_editable_act_start_date",
+   "oldfieldtype": "Date"
+  },
+  {
+   "bold": 1,
+   "fieldname": "custom_editable_act_end_date",
+   "fieldtype": "Datetime",
+   "label": "Actual End Date",
+   "oldfieldname": "custom_editable_act_end_date",
+   "oldfieldtype": "Date"
   },
   {
    "fieldname": "progress",
